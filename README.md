@@ -12,8 +12,8 @@ RTL and testbench:
 rtl:
 apbbridge -> apbmaster
           -> slave1  slave2 slave3  slave4 (all are rams only)
-****
-features:
+*******************************************************
+ dut features:
     * only single slave asserted at atime .
     *slveeror generation as paddr<locations of memory
     *32bit and 256 location memory.
